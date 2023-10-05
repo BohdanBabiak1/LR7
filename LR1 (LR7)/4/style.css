@@ -1,0 +1,23 @@
+html {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid #e8e8e8;
+    padding: 8px;
+}
+
+td {
+    border: 3px solid #e8e8e8;
+    padding: 10px;
+}
+
+table td {
+    width: 15%;
+}
+
+.button{
+    color: blue;
+    text-decoration: underline;
+}

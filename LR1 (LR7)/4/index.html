@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo of cats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <td rowspan="3" id="previous" class="button" onclick="PreviousPhoto()">Назад</td>
+            <td id="photoNumber"></td>
+            <td rowspan="3" id="next" class="button" onclick="NextPhoto()">Вперед</td>
+        </tr>
+        <tr><td><img id="image" width="500" height="500"></td></tr>
+        <td id="description"></td>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
